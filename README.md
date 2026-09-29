@@ -2,7 +2,11 @@
 
 Standalone browser package containing the recovered Real frontend assets for version **2.7.2**.
 
-![Frontend preview](docs/screenshots/preview.svg)
+## Preview
+
+| Home | Editor | Settings |
+|---|---|---|
+| ![Home](docs/screenshots/home.png) | ![Editor](docs/screenshots/editor.png) | ![Settings](docs/screenshots/settings.png) |
 
 ## Run
 
@@ -25,6 +29,7 @@ Native desktop operations are intentionally unavailable in this frontend-only pa
 - `_app/immutable/` — compiled application modules and styles.
 - `monaco/` — bundled Monaco editor assets.
 - `icons/`, `background/`, `lottie/`, `providers/` — static UI resources.
+- `docs/screenshots/` — real application screenshots used in this README.
 - `index.html` — standalone entry point with the browser fallback layer.
 - `run.ps1` / `run.cmd` — one-command local launcher.
 
